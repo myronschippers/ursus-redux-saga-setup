@@ -81,7 +81,7 @@ Redux Saga has a fair amount of overhead. Here's what needs to be done in order 
     sagaMiddleware.run(watcherSaga);
     ```
 
-## Registering Sagas
+## Creating / Registering Sagas
 
 Great! `redux-saga` is a part of our project. Like other middleware, redux-saga has access to every dispatched action. It's also special, because it's a middleware that can dispatch other actions.
 
